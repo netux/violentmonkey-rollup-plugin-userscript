@@ -6,7 +6,7 @@
 
 Automatically parse metadata and set `@grant`s.
 
-With this plugin, `@grant`s for [`GM_*` functions](https://violentmonkey.github.io/api/metadata-block/) will be added at compile time.
+With this plugin, `@grant`s for [`GM_*`/`GM.*` functions and `unsafeWindow`](https://violentmonkey.github.io/api/metadata-block/) will be added at compile time.
 
 ## Usage
 
